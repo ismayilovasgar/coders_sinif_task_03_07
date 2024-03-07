@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght,BNCE,INFM,SPAC@0,410,-39,3,3.4;1,410,-39,3,3.4&display=swap");
 
+/* Start settings */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,6 +9,7 @@
   text-decoration: none;
 }
 
+/* Header-navbar */
 .header {
   width: 100vw;
   padding: 5px 25px;
@@ -60,11 +62,13 @@
   color: azure;
 }
 
+/*  Section */
 .section {
   display: flex;
   flex-direction: column;
 }
 
+/* Top Section div */
 .topsection {
   padding: 120px 80px 80px;
   background-image: url("https://c4.wallpaperflare.com/wallpaper/25/1016/19/galatasaray-soccer-sports-wallpaper-preview.jpg");
@@ -91,6 +95,7 @@
   text-shadow: 0 2px 2px yellow;
 }
 
+/* Bottom Section div */
 .bottomsection {
   background-color: rgb(226, 231, 226);
   padding: 30px 10px;
@@ -114,6 +119,7 @@
   font-size: 28px;
 }
 
+/* Products div */
 .products {
   display: flex;
   justify-content: space-evenly;
@@ -160,6 +166,7 @@
   justify-content: space-around;
 }
 
+/* Button  */
 .buy button {
   width: 65%;
   padding: 10px 2px;
